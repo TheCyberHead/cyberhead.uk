@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Tomorrow&display=swap');
+
+body {
+	.section-ch {
+		color: white;
+		font-family: 'Tomorrow';
+		font-weight: 400;
+		text-align: center;
+		margin-top: 3em;
+		h6 {
+			margin-bottom: 1em;
+		}
+	}
+	img {
+		max-width: 100%;
+	}
+	background-color: rgba(34,34,34,.9);
+	.navbar-ch {
+		background-color: rgba(34,34,34,.5);
+		border-bottom: 1px solid;
+		border-image-source: linear-gradient( 109.6deg,  rgba(120,212,234,1) 11.2%, rgba(216,226,253,1) 72.1% );
+		border-image-slice: 1;
+		.navbar-brand {
+			color: white;
+			font-family: 'Tomorrow';
+			font-weight: 400;
+		}
+	}
+	.highlights-ch {
+		margin-left: 1em;
+		margin-right: 1em;
+		margin-top: 4em;
+		p {
+			color: rgba(245,245,245 ,0.8);
+		}
+		h5 {
+			text-align: center;
+			font-family: 'Tomorrow';
+			font-weight: 400;
+			background: linear-gradient( 135deg, #81FBB8 10%, #28C76F 100%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+	}
+	.main-ch {
+		max-width: 50%;
+		margin: 0 auto;
+		margin-top: 2em;
+		h2, p, h3 {
+			font-family: 'Tomorrow';
+			font-weight: 400;
+			background: linear-gradient( 109.6deg,  rgba(120,212,234,1) 11.2%, rgba(216,226,253,1) 72.1% );
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+	}
+}

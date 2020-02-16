@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Tomorrow&display=swap");
+body {
+  background-color: rgba(34, 34, 34, 0.9); }
+  body .section-ch {
+    color: white;
+    font-family: 'Tomorrow';
+    font-weight: 400;
+    text-align: center;
+    margin-top: 3em; }
+    body .section-ch h6 {
+      margin-bottom: 1em; }
+  body img {
+    max-width: 100%; }
+  body .navbar-ch {
+    background-color: rgba(34, 34, 34, 0.5);
+    border-bottom: 1px solid;
+    border-image-source: linear-gradient(109.6deg, #78d4ea 11.2%, #d8e2fd 72.1%);
+    border-image-slice: 1; }
+    body .navbar-ch .navbar-brand {
+      color: white;
+      font-family: 'Tomorrow';
+      font-weight: 400; }
+  body .highlights-ch {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 4em; }
+    body .highlights-ch p {
+      color: rgba(245, 245, 245, 0.8); }
+    body .highlights-ch h5 {
+      text-align: center;
+      font-family: 'Tomorrow';
+      font-weight: 400;
+      background: linear-gradient(135deg, #81FBB8 10%, #28C76F 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+  body .main-ch {
+    max-width: 50%;
+    margin: 0 auto;
+    margin-top: 2em; }
+    body .main-ch h2, body .main-ch p, body .main-ch h3 {
+      font-family: 'Tomorrow';
+      font-weight: 400;
+      background: linear-gradient(109.6deg, #78d4ea 11.2%, #d8e2fd 72.1%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+
+/*# sourceMappingURL=index.css.map */
